@@ -2,3 +2,17 @@ body {
     color:aliceblue;
     background-color:darkred;
 }
+
+header {
+       color:white;;
+}
+
+h2 {
+    color:white;;
+}
+
+section {
+    color:black;;
+    background: grey;;
+    padding-top: ;
+}
