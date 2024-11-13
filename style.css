@@ -13,4 +13,9 @@ h2 {
 
 section {
     color:white;
+    background: rgb(141, 60, 60);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;/*torna flexivel = põe um do lado do outro*/
+    justify-content: center; /*centralizar*/
 }
