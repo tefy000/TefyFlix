@@ -4,11 +4,11 @@ body {
 }
 
 header {
-       color:white;;
+       color:white;
 }
 
 h2 {
-    color:white;;
+    color:white;
 }
 
 .chamada{
@@ -28,7 +28,7 @@ img{
     height: 200px; 
 }
 
-categoria-videos{
+.categoria-videos{
     display: flex;
     overflow-x: auto;/*permite rolagem horizontal automatica quando o conteudo execeder a largura da tela*/
     gap: 10px;/* adiciona espaçamento entre os elementos*/
