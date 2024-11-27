@@ -11,7 +11,7 @@ h2 {
     color:white;;
 }
 
-section {
+.categoria{
     color:white;
     background: rgb(56, 24, 24);
     padding-top: 80px;
@@ -30,6 +30,6 @@ img{
 
 categoria-videos{
     display: flex;
-    overflow: auto;/*permite rolagem horizontal automatica quando o conteudo execeder a largura da tela*/
+    overflow-x: auto;/*permite rolagem horizontal automatica quando o conteudo execeder a largura da tela*/
     gap: 10px;/* adiciona espaçamento entre os elementos*/
 }
