@@ -1,43 +1,47 @@
 body {
-    color:aliceblue;
-    background-color:darkred;
+    color: aliceblue;
+    background-color: darkred;
 }
 
 header {
-       color:white;
-       font-size: 40px;
+    color: white;
+    font-size: 40px;
 }
 
 h2 {
-    color:white;
+    color: white;
     text-align: center;
     font-size: 30px;
 }
 
-.chamada{
-    color:white;
+.chamada {
+    color: white;
     background: rgb(56, 24, 24);
     padding-top: 80px;
     padding-bottom: 80px;
-    display: flex;/*torna flexivel = põe um do lado do outro*/
-    justify-content: center; /*centralizar*/
+    display: flex;
+    /*torna flexivel = põe um do lado do outro*/
+    justify-content: center;
+    /*centralizar*/
 }
 
 .chamada-texto {
-     margin-right: 15%;
+    margin-right: 15%;
 }
 
-img{
-    height: 200px; 
-    }
+img {
+    height: 200px;
+}
 
 .categoria {
     padding-left: 20px;
     padding-right: 20px;
-}    
+}
 
-.categoria-videos{
+.categoria-videos {
     display: flex;
-    overflow-x: auto;/*permite rolagem horizontal automatica quando o conteudo execeder a largura da tela*/
-    gap: 10px;/* adiciona espaçamento entre os elementos*/
+    overflow-x: auto;
+    /*permite rolagem horizontal automatica quando o conteudo execeder a largura da tela*/
+    gap: 15px;
+    /* adiciona espaçamento entre os elementos*/
 }
